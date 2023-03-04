@@ -1,0 +1,245 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+/* heaeder */
+.main-head {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  gap: 20px;
+}
+.main-head img {
+  width: 150px;
+  height: 150px;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+}
+.navigation li {
+  margin: 10px;
+}
+.navigation li a {
+  padding: 10px;
+  font-size: 20px;
+  color: #fff;
+}
+.sect1 {
+  background-color: #181823;
+}
+.navigation li a:hover {
+  border-bottom: 3px solid #c0eef2;
+}
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search i {
+  color: #fff;
+  font-size: 30px;
+  padding: 10px;
+  cursor: pointer;
+}
+.search input {
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+}
+/* background */
+.background {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("sdu1.jpg");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 80vh;
+  background-attachment: fixed;
+}
+.background-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
+  color: #fff;
+}
+.background-content h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.background-content p {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.background-content a {
+  margin-top: 20px;
+}
+/* sect3 */
+.pages {
+  margin: 40px 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  text-align: center;
+}
+.page {
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.page img {
+  border-radius: 10px;
+  height: 250px;
+}
+.page h3 {
+  padding: 20px;
+}
+/* .page:hover {
+  background-color: #537fe7;
+  border-radius: 10px;
+  color: #fff;
+} */
+.page1:hover {
+  background-color: #f7c04a;
+  border-radius: 10px;
+  color: #fff;
+}
+.page2:hover {
+  background-color: #537fe7;
+  border-radius: 10px;
+  color: #fff;
+}
+.page3:hover {
+  background-color: #5d9c59;
+  border-radius: 10px;
+  color: #fff;
+}
+.page4:hover {
+  background-color: #b7b78a;
+  border-radius: 10px;
+  color: #fff;
+}
+.page5:hover {
+  background-color: #ff0303;
+  border-radius: 10px;
+  color: #fff;
+}
+.page6:hover {
+  background-color: #eb455f;
+  border-radius: 10px;
+  color: #fff;
+}
+.news {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 20px;
+  padding: 10px 0;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.news-content {
+  margin-bottom: 20px;
+}
+.news:hover {
+  color: #537fe7;
+  opacity: 0.8;
+}
+.news img {
+  border-radius: 20px;
+}
+.cont p {
+  width: 100%;
+  margin-top: 20px;
+}
+.cont h2 {
+  margin-left: 8px;
+  margin-bottom: 20px;
+}
+.content2 {
+  margin-top: 20px;
+  gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.cont2-background1 {
+  background-image: url("20060425_NassauHall_JJ_IMG_5973.jpg");
+}
+.cont2-background2 {
+  background-image: url("200616aCampus100b.jpg");
+}
+.cont2-background3 {
+  background-image: url("ug-study-homepage-banner.jpg");
+}
+.cont2-background {
+  width: 100%;
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.cont2-background h2 {
+  padding: 20px;
+  background-color: #537fe7;
+  color: #fff;
+  transition: all 0.5s;
+}
+.cont2-background:hover h2 {
+  background-color: #fff;
+  color: #537fe7;
+  cursor: pointer;
+}
+.footer {
+  background-color: #181823;
+  color: #fff;
+  margin-top: 30px;
+}
+.footer .logo {
+  width: 300px;
+  padding: 20px;
+}
+.footer-content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+.footer h1 {
+  margin: 20px 0 20px 10px;
+}
+.contact-us input {
+  padding: 5px 15px;
+  width: 90%;
+  margin: 10px 0;
+  border-radius: 10px;
+}
+.links {
+  padding: 10px;
+}
+.links li a {
+  color: #fff;
+  transition: all 0.5s;
+}
+.links li {
+  color: #fff;
+  padding: 15px;
+  border-bottom: 1px solid #537fe7;
+  width: 90%;
+}
+.links li a:hover {
+  color: #537fe7;
+}
+.follow-us i {
+  margin: 3px;
+  font-size: 30px;
+  color: #537fe7;
+  cursor: pointer;
+}

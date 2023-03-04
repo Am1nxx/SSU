@@ -1,0 +1,76 @@
+ul li {
+  list-style-type: none;
+}
+img {
+  width: 100%;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+.active {
+  border-bottom: 3px solid #537fe7;
+}
+.btn1 {
+  background-color: #537fe7;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 20px;
+  transition: all 0.5s;
+}
+.btn1:hover {
+  background-color: #fff;
+  color: #537fe7;
+}
+.typewriter h1,
+.typewriter p {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 0.15em solid #537fe7; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0.15em; /* Adjust as needed */
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #537fe7;
+  }
+}
+.border-bottom {
+  font-size: 30px;
+  border-bottom: 3px solid #537fe7;
+  padding-bottom: 5px;
+}
+.btn2 {
+  background-color: #537fe7;
+  color: #fff;
+  padding: 8px 15px;
+  font-size: 15px;
+  transition: all 0.5s;
+  border-radius: 10px;
+  width: 90%;
+  cursor: pointer;
+}
+.btn2:hover {
+  background-color: #fff;
+  color: #537fe7;
+}
